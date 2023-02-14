@@ -1,11 +1,11 @@
 [package]
 name = "lazymc"
-version = "0.2.8"
-authors = ["Tim Visee <3a4fb3964f@sinenomine.email>"]
+version = "0.2.8-multi1"
+authors = ["tW4r tw4r@hotmail.com", "Tim Visee <3a4fb3964f@sinenomine.email>"]
 license = "GPL-3.0"
 readme = "README.md"
-homepage = "https://timvisee.com/projects/lazymc"
-repository = "https://gitlab.com/timvisee/lazymc"
+homepage = "https://gitlab.com/tW4r/lazymc"
+repository = "https://gitlab.com/tW4r/lazymc"
 description = "Put your Minecraft server to rest when idle."
 keywords = ["minecraft", "server", "idle", "cli"]
 categories = ["command-line-interface", "games"]

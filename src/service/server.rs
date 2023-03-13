@@ -170,6 +170,11 @@ async fn route(mut inbound: TcpStream, router: Arc<Router>) {
         } else {
             route_status(client, inbound, server, inbound_history, client_info)
         }
+    } else {
+        // Show unhandled packet warning
+        debug!(target: "lazymc", "Got unhandled packet:");
+        debug!(target: "lazymc", "- State: {:?}", client.state());
+        debug!(target: "lazymc", "- Packet ID: {}", packet.id);
     }
 }
 
